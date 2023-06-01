@@ -28,7 +28,7 @@ async def what(ctx):
     await ctx.send(um)
 @bot.command('help')
 async def help(ctx):
-    await ctx.send('ecology - эта команда отправляет 9 разных тектосв о сохранении экоглогии на земле, help - помогает найти инфу о командах.')
+    await ctx.send('ecology - эта команда отправляет 9 разных тектосв о сохранении экоглогии на земле, help - помогает найти инфу о командах. how - рассказывает на каком языке програмированния я создал бота.')
 @bot.command('how')
 async def how(ctx):
     await ctx.send('Я сделал этого бота на python') 
