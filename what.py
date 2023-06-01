@@ -27,4 +27,4 @@ async def what(ctx):
     um = random.choice(ecology)
     await ctx.send(um)
 
-bot.run('MTEwNDY3Mzc3MDQxMDYyNzEwMg.G-ltZ4.OmlJGGNV-uswbuOKsmVpWYSfvlSd3MGa-zrHGY')
+bot.run('token')
