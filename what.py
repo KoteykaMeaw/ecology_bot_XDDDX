@@ -26,5 +26,10 @@ async def on_ready():
 async def what(ctx):
     um = random.choice(ecology)
     await ctx.send(um)
-
-bot.run('token')
+@bot.command('help')
+async def help(ctx):
+    await ctx.send('ecology - эта команда отправляет 9 разных тектосв о сохранении экоглогии на земле, help - помогает найти инфу о командах.')
+@bot.command('how')
+async def how(ctx):
+    await ctx.send('Я сделал этого бота на python') 
+bot.run('token here lololol')
